@@ -129,7 +129,7 @@ main {
     padding-top: 100px;
 }
 
-h1 {
+.text3 {
     color: #484848;
     font-family: Audiowide;
     font-size: 45px;
@@ -177,7 +177,7 @@ h2 {
     margin-left: 90px;
 }
 
-p {
+.gymat {
     display: flex;
     width: 338px;
     height: 44px;
@@ -195,4 +195,19 @@ p {
 .Mod2{
     margin-top: 45px;
     margin-left: 28px;
+}
+
+.vector1{
+    margin-top: -90px;
+    margin-left: 30px;
+}
+
+.vector2{
+    margin-top: -60px;
+    margin-left: -112px;
+}
+
+.vector3{
+    margin-top: -30px;
+    margin-left: -112px;
 }
