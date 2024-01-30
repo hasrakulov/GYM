@@ -13,6 +13,7 @@ header {
     background: url(./images/sportsman-building.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .fa-solid {
@@ -46,7 +47,6 @@ header {
 
 .list_item:hover {
     border-bottom: 1px solid red;
-
 }
 
 .text1 {
@@ -76,7 +76,6 @@ header {
     color: #FFF;
     background: #AE0F0F;
     margin-bottom: 130px;
-
 }
 
 .btn:hover {
@@ -484,4 +483,84 @@ h4 {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+}
+
+
+
+.Calcu {
+    color: #484848;
+    font-family: Audiowide;
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    width: 486px;
+    height: 61px;
+    margin-top: 121px;
+}
+
+.printer {
+    display: flex;
+    width: 466px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #9E9E9E;
+    font-size: 16px;
+    margin-top: 11px;
+}
+
+.father_left_right {
+    display: flex;
+}
+
+.form-check {
+    height: 0px;
+    margin-left: 50px;
+}
+
+.right_cal_fat {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-left: 90px;
+    height: 0px;
+    margin-top: 100px;
+}
+
+.input_father {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: -430px;
+    color: red;
+    font-size: 24px;
+    color: #6C6C6C;
+    margin-top: 140px;
+}
+
+.input1 {
+    width: 255px;
+    height: 76px;
+}
+
+.input2 {
+    width: 255px;
+    height: 76px;
+}
+
+.btn2 {
+    width: 140px;
+    height: 40px;
+    color: #FFF;
+    background: #AE0F0F;
+    margin-bottom: 130px;
+    border-radius: 5px;
+    margin-left: 627px;
+    border: none;
+}
+
+.btn2:hover {
+    background: #CDCDCD;
+    color: #AE0F0F;
 }
