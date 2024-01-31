@@ -116,7 +116,7 @@ header {
 }
 
 .father-left {
-    margin-left: -90px;
+    margin-left: -0px;
 }
 
 .text-position-section {
@@ -130,6 +130,84 @@ header {
 
 main {
     padding-top: 100px;
+}
+
+.card_fitnes {
+    position: relative;
+    width: 287px;
+}
+
+.pos_1 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.trener-image {
+    position: relative;
+}
+
+.icon_man {
+    position: absolute;
+    /* bottom: 0; */
+    top: 220px;
+    text-align: center;
+    left: 100px;
+}
+
+.text_clock {
+    color: #9E9E9E;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.carousel-inner {
+    margin-left: 50px;
+    /* margin-top: 80px; */
+}
+
+.btn_gm {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    background: #AE0F0F;
+    padding: 7px 16px;
+    border: none;
+}
+
+.flex-card-gm {
+    display: flex;
+    gap: 50px;
+}
+
+.all_part_menu {
+    width: 100%;
+}
+
+.carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background: #AE0F0F;
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background: #AE0F0F;
+    border-radius: 50%;
+}
+
+.carousel-item {
+    margin-left: 10px;
 }
 
 .text3 {
@@ -257,6 +335,7 @@ h2 {
     color: #FFF;
     font-size: 15px;
     margin-bottom: 25px;
+
 }
 
 .img_boy {
@@ -264,7 +343,7 @@ h2 {
 }
 
 .father_right {
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .groups1 {
@@ -485,8 +564,6 @@ h4 {
     flex-shrink: 0;
 }
 
-
-
 .Calcu {
     color: #484848;
     font-family: Audiowide;
@@ -565,4 +642,155 @@ h4 {
 .btn2:hover {
     background: #CDCDCD;
     color: #AE0F0F;
+}
+
+.section_man_bg {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./images/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-attachment: fixed;
+}
+
+.section_text {
+    color: #FFF;
+    font-family: Audiowide;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    /* 122.222% */
+}
+
+.section_info {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+span {
+    color: #AE0F0F;
+}
+
+.gymat-father {
+    margin-top: 96px;
+    margin-bottom: 200px;
+}
+
+.end {
+    display: flex;
+    width: 342px;
+    height: 86px;
+    flex-direction: column;
+    justify-content: center;
+    color: #9E9E9E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 13px;
+    margin-bottom: 23px;
+}
+
+.gymat1 {
+    margin-left: 450px;
+    margin-top: -290px;
+}
+
+.pp {
+    width: 239px;
+}
+
+.Our {
+    color: #484848;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 77px;
+}
+
+.our-line {
+    border-bottom: 2px solid #AE0F0F;
+    width: 60px;
+    margin-bottom: 12px;
+}
+
+.gymat3 {
+    margin-left: 750px;
+    margin-top: -306px;
+}
+
+.pp {
+    color: #A7A7A7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    width: 132px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gymat4 {
+    margin-top: -308px;
+    margin-left: 1000px;
+}
+
+.ppp {
+    display: flex;
+    width: 252px;
+    height: 49px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #676767;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.link {
+    color: #0094FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.tel-tex {
+    margin-top: 13px;
+}
+
+.fa-solid {
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.the-end {
+    background: #121111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30px;
+}
+
+.the-end-gymat {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
