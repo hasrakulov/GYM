@@ -542,11 +542,13 @@ h4 {
 .input1 {
     width: 255px;
     height: 76px;
+    padding-left: 25px;
 }
 
 .input2 {
     width: 255px;
     height: 76px;
+    padding-left: 25px;
 }
 
 .btn2 {
